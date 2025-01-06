@@ -56,6 +56,14 @@
 		},
 	});
 
+	const swiperElement = document.querySelector('.hero-slider-layout .swiper');
+swiperElement.addEventListener('mouseenter', () => {
+    hero_slider_layout.autoplay.stop();
+});
+swiperElement.addEventListener('mouseleave', () => {
+    hero_slider_layout.autoplay.start();
+});
+
 	/* testimonial Slider JS */
 	if ($('.testimonial-slider').length) {
 		const testimonial_slider = new Swiper('.testimonial-slider .swiper', {
