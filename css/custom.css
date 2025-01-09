@@ -4198,7 +4198,8 @@ header.main-header .header-sticky.active .container-fluid::before {
 .contact-info-title h3 {
   font-size: 22px;
   line-height: normal;
-  color: var(--accent-color);
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 .google-map {
