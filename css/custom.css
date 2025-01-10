@@ -6056,6 +6056,12 @@ header.main-header .header-sticky.active .container-fluid::before {
   filter: inherit;
 }
 
-.bg-white{
+.bg-white {
   background: #ffffff;
+}
+
+.clients img {
+  max-width: 45%;
+  height: auto;
+  text-align: center;
 }
