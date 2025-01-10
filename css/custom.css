@@ -2653,8 +2653,18 @@ header.main-header .header-sticky.active .container-fluid::before {
 }
 
 .company-logo img {
-  width: 100%;
+  width: 40%;
   height: 40px;
+  aspect-ratio: inherit !important;
+}
+
+.company-logonew {
+  background-color: var(--white-color);
+  border-radius: 20px;
+  text-align: center;
+  height: calc(100% - 30px);
+  margin-bottom: 30px;
+  padding: 55px 35px;
 }
 
 .company-experience {
