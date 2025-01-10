@@ -1377,6 +1377,10 @@ header.main-header .header-sticky.active .container-fluid::before {
   border-radius: 20px;
 }
 
+.img-outsourcing img {
+  aspect-ratio: inherit !important;
+}
+
 /************************************/
 /***      08. Our Pricing Css     ***/
 /************************************/
@@ -6050,4 +6054,8 @@ header.main-header .header-sticky.active .container-fluid::before {
 
 .pricing-title:hover {
   filter: inherit;
+}
+
+.bg-white{
+  background: #ffffff;
 }
