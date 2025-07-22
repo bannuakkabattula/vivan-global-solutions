@@ -48,8 +48,9 @@
   --primary-color: #042a2d;
   --secondary-color: #f2f1ed;
   --text-color: #8f8f8f;
-  --accent-color: #73ed7c;
-  --dark-color: #019297;
+  --accent-color: #ed7373;
+  --dark-color: #970101;
+    --light-color: #afafaf;
   --white-color: #ffffff;
   --divider-color: #dfe1de;
   --dark-divider-color: #ffffff33;
@@ -289,8 +290,8 @@ body {
   bottom: 0;
   z-index: 1000;
   background: linear-gradient(263deg,
-      var(--accent-color) 0.16%,
-      var(--dark-color) 99.84%);
+      var(--light-color) 0.16%,
+      var(--light-color) 99.84%);
   display: flex;
   align-items: center;
   justify-content: center;
